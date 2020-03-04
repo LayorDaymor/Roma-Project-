@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i,800,800i&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin: 0;
+    width: 100%;
+}
+h1{
+    position: absolute  ;
+    top: 0vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 5vw;
+    color: #e7bc0e ;
+    background-color: transparent;
+
+}
+main section p{
+color: gold;
+position: absolute  ;
+top: 20vh;
+left: 50%;
+margin-top: 0;
+transform: translateX(-50%);
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 2vw;
+color: #e7bc0e ;
+background-color: transparent;
+
+}
+main section h2{
+color: #6bc1a3 ;
+position: absolute  ;
+top: 100vh;
+left: 50%;
+margin-top: 0;
+transform: translateX(-50%);
+font-family: 'Open Sans';
+font-weight: 400;
+font-size: 2vw;
+background-color: transparent;
+}
+main section .icon1{
+    position: absolute;
+    top: 195vh;
+    left: 30%;
+    margin-top: 0;
+    background-color: transparent;
+    background: url(../img/stat-workers-color.svg);
+    height: 15vh;
+    width: 15vw;
+    background-repeat: no-repeat, no-repeat;
+    background-color: transparent;
+}  
+.text1{
+    color: #e7bc0e;
+    margin: 0;
+    pad: 0;
+    position: absolute;
+    top: 211vh;
+    text-align: center;
+    font-size: 2vw;
+}
+.text1::first-line{
+    font-size: 7vw;
+}
+.text1::after{
+    content: 'in the United States';
+    color: white;
+    background-color: black;
+}
+main section .icon2{
+    position: absolute;
+    top: 245vh;
+    left: 30%;
+    margin-top: 0;
+    background-color: transparent;
+    background: url(../img/stat-pay-color.svg);
+    height: 15vh;
+    width: 15vw;
+    background-repeat: no-repeat, no-repeat;
+    background-color: transparent;
+}  
+.text2{
+    color: #cb91b6;
+    margin: 0;
+    pad: 0;
+    position: absolute;
+    top: 261vh;
+    left: 50%;
+    transform: translateX(-150%);
+    text-align: center;
+    font-size: 7vw;
+}
+.text2::first-line{
+    font-size: 2vw;
+}
+.text2::after{
+    content:'paid less than';
+    background-color: black;
+    color: white;
+    font-size: 2vw; 
+    font-weight: bolder;
+    margin-top: 0;
+    position: absolute;
+    top:0vh;
+    left: 8vw;
+    display: inline-flex;
+    width: 15vw;
+}
+
+main section .icon3{
+    position: absolute;
+    top: 295vh;
+    left: 30%;
+    margin-top: 0;
+    background-color: transparent;
+    background: url(../img/stat-health-color.svg);
+    height: 15vh;
+    width: 15vw;
+    background-repeat: no-repeat, no-repeat;
+    background-color: transparent;
+}  
+.text3{
+    color: #6bc1a3;
+    margin: 0;
+    pad: 0;
+    position: absolute;
+    top: 305vh;
+    left:60%;
+    text-align: left;
+    font-size: 2vw;
+}
+.text3::first-line{
+    font-size: 7vw;
+}
+.text3::after{
+    content:'no health insurance';
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+.text4{
+    text-align: left;
+    color: #7eb8e1;
+    position: absolute;
+    top: 345vh;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 2vw;
+}
+.Nigo{
+    color: white;
+    background-color: black;
+    
+}
+
+.text5{
+    color: white;
+    padding: 0em;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 5vw;
+    text-align: left;
+    display: inline;
+    position: absolute;
+    top: 500vh;
+    left: 40vw;
+}
+.Donate{
+    background-color: transparent;
+    height: 7vh;
+    width: 10vw;
+    position: absolute;
+    top: 555vh;
+    left: 11vw;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size:2vh;
+}
+.Donate:hover{
+    box-shadow: 5px 5px 1px white;
+}
+.Roma{
+    color: white;
+    font-size: 2vh;
+    position: absolute;
+    top: 585vh;
+    text-align: center;
+}
+.Bold{
+    color: #6bc1a3;
+}
+
+.Parallax1{
+    background-image: url("../img/cleo-topper.jpg");
+    height: 390vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+  }
+  .Parallax2{
+    background-image: url("../img/kid.png");
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+  }
+  .Parallax3{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+  }
